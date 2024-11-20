@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.130ec85d.css",
+    "main.js": "/static/js/main.ceb8d36e.js",
+    "static/js/453.ba0bff97.chunk.js": "/static/js/453.ba0bff97.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/index.html",
+    "static/media/search-icon.svg": "/static/media/search-icon.269a1f66249ead392d24.svg",
+    "static/media/CaretRight.svg": "/static/media/CaretRight.309cd704b603ebd77b40.svg",
+    "static/media/CaretLeft.svg": "/static/media/CaretLeft.9ae71d281e0e66fac342.svg",
+    "main.130ec85d.css.map": "/static/css/main.130ec85d.css.map",
+    "main.ceb8d36e.js.map": "/static/js/main.ceb8d36e.js.map",
+    "453.ba0bff97.chunk.js.map": "/static/js/453.ba0bff97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.130ec85d.css",
+    "static/js/main.ceb8d36e.js"
+  ]
+}

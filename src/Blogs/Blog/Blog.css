@@ -1,0 +1,16 @@
+.course-thumbnail {
+    width: 100%;  /* Full width of the parent container */
+    padding-top: 55%;  /* This maintains a square aspect ratio (1:1) */
+    position: relative; /* Position relative for absolute positioning of the image */
+    overflow: hidden; 
+}
+
+.course-thumbnail img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Ensures the image covers the container without distortion */
+    object-position: center; /* Centers the image within the container */
+}

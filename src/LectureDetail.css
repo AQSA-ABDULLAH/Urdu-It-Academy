@@ -1,0 +1,58 @@
+.video-container {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.social-share {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  color: #007bff;
+  /* Primary color */
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #0056b3;
+  /* Darker shade for hover effect */
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.heading_title:hover {
+  color: #0056b3 !important;
+}
+
+.heading_title:active {
+  color: #0056b3 !important;
+}
+
+
+
+
+.badge.bg-success {
+  font-size: 0.75em;
+  padding: 0.2em 0.4em;
+}
+
+.heading_title.active {
+  font-weight: bold;
+  color: #28a745;
+  /* Optional: Change text color for active lecture */
+}

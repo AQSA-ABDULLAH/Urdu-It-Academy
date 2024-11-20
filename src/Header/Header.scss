@@ -1,0 +1,91 @@
+.header {
+    border-bottom: 1px solid #EEEEEE;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+
+    .navbar {
+        width: 100%; // Ensure the navbar takes the full width
+    }
+
+    .nav-menu {
+        padding: 0;
+
+        .navbar-collapse {
+            // On mobile (by default), items stack in a column
+            flex-direction: column; 
+            overflow: hidden;
+            max-height: none;
+            position: absolute;
+            top: 100%; // Display the collapse items below the navbar
+            left: 0;
+            right: 0;
+            z-index: 2000;
+
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // Light shadow for visibility
+            border-radius: 4px;
+
+            // On larger screens (above 991px), revert to row layout
+            @media (min-width: 992px) {
+                flex-direction: row; 
+                position: relative;
+                background-color: transparent;
+                box-shadow: none;
+            }
+         
+        }
+
+        .navbar-nav {
+            flex-direction: column; // On mobile, nav items stack in a column
+            width: 100%; // Full width for mobile nav items
+
+            @media (min-width: 992px) { // On larger screens, switch to row
+                flex-direction: row; 
+                flex-wrap: wrap;
+                gap: 3;
+            }
+
+            .nav-link {
+                width: 100%; // Full width on mobile
+                text-align: start; // Center text for mobile and desktop
+                padding: 10px 15px; // Padding for nav links
+                display: block;
+
+                &.active {
+                    font-weight: bold;
+                    border-bottom: 2px solid blue;
+                }
+
+                // On desktop, adjust margin between items
+                @media (min-width: 992px) {
+                    width: auto; // Auto width on larger screens
+                }
+            }
+        }
+
+        .menu-search {
+            margin-left: 10px;
+            width: 100%; // Full width on mobile
+            margin-top: 10px;
+
+            @media (min-width: 992px) {
+                margin-top: 0; // Remove margin on larger screens
+                width: auto; // Adjust width for larger screens
+            }
+
+            .form-control {
+                width: 100%; // Full width on mobile
+                padding-left: 40px; // Padding for search icon
+                background: url("../../public/assets/images/search-icon.svg") 10px center no-repeat;
+                border: 1px solid #E8E8E8;
+                border-radius: 4px;
+                color: #AEAEAE;
+
+                &::placeholder {
+                    color: #AEAEAE;
+                }
+            }
+        }
+    }
+}
